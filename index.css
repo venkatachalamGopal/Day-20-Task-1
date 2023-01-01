@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+h3{
+    background-color: skyblue;
+    padding: 5px;
+    text-align: center;
+}
+#mainDiv{
+    border: 4px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 2px;
+}
+.childDiv{
+    border: 3px solid gold;
+    margin: 3px;
+    padding: 10px;
+    width: 260px;
+}
+.Bname{
+    color: #e07a5f;
+    font-weight: 600;
+}
+#message{
+    color: green;
+}
+span{
+    color: red;
+    font-weight: bolder;
+}
+.error{
+    color: red;
+    font-weight: bolder;
+}
+input{
+    padding: 4px;
+    outline-color: blue;
+}
+input[type=reset]{
+    padding: 4px;
+    width: 70px;
+    border-radius: 3px;
+    background-color: #ccd5ae;
+    font-weight: bolder;
+}
+input[type=reset]:hover{
+    background-color: #d4a373;
+    transition: 0.5s;
+}
